@@ -1,0 +1,148 @@
+.inner {
+    box-shadow: 0 5px 0 0 gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 72px;
+    margin-right: 1em;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: serif;
+    margin: 12px 0 0 0;
+}
+
+h4 {
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+
+ul.topbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+ul.topbar li {
+    float: left;
+}
+
+ul.topbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+ul.topbar li a:hover:not(.active) {
+    background-color: rgb(87, 86, 86);
+}
+
+ul.topbar li a.active {
+    background-color: rgb(82, 205, 209);
+}
+
+ul.topbar li a.active:hover {
+    background-color: blue;
+}
+
+ul.topbar li.right {
+    float: right;
+}
+
+.content {
+    width: 980px;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+title {
+    display: inline-flex;
+    color: #7d97ad;
+    font-size: 2em;
+    text-shadow: 4px 4px 5px red;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 980px;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 300px;
+    height: 420px;
+    padding: 0;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 38px;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+}
+
+@media screen and (max-width:980px) {
+    .content,
+    .container {
+        width: 100%;
+    }
+@media screen and (max-width:768px) {}
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .title {
+        text-align: center;
+    }
+    .content img {
+        border-radius: 50px;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .box1,
+    .box2,
+    .box3 {
+        width: 396px;
+        height: 425px;
+        padding: 5px;
+    }
+    .content {
+        background-color: #c3dff8;
+    }
+    title {
+        display: inline;
+        color: red;
+        font-size: 2em;
+        text-shadow: 4px 4px 5px black;
+    }
+    .content img {
+        border-radius: 100px;
+    }
+    ul.topbar li.right, 
+    ul.topbar li {
+        float: none;}
+}
