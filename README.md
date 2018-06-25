@@ -11,3 +11,9 @@ It's a website for introducing my hometown scenic spot
 [ClassicArcadeGame](https://github.com/QA0w0AQ/ClassicArcadeGame)
 
 [myMemoryGame](https://github.com/QA0w0AQ/myMemoryGame)
+
+[Sample-Unsplash-Search](https://github.com/QA0w0AQ/Sample-Unsplash-Search)
+
+[BookShelf Project](https://github.com/QA0w0AQ/reactnd-project-myreads-starter)
+
+[React-Shopping-cart](https://github.com/QA0w0AQ/React-Shopping-cart)
